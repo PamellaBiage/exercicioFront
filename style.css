@@ -172,3 +172,71 @@
     text-align: center;
     
 }
+
+.textoFixo {
+    display: none;
+  }
+  
+.textoEscondido {
+    opacity: 0;
+    max-height: 0;
+    font-size: 0;
+    transition: none;
+    font-family: Quicksand;
+    text-align: justify;
+    color: #5C5C5C;
+}
+  
+.read-more-txt{
+    font-family: Quicksand;
+    text-align: justify;
+    color: #5C5C5C;
+    border: 0px !important;
+    font-size: 12pt;
+    margin-top: 15px;
+}
+  
+.read-more-wrap{
+    display: block;
+    font-size: 0px;
+}
+
+.textoFixo:checked ~ .read-more-wrap .textoEscondido {
+    opacity: 1;
+    font-size: inherit;
+    font-size: 12pt;
+}
+  
+  
+.verMais {
+    cursor: pointer;
+    display: inline-block;
+    font-size: 16px;
+    color: #ED7839;
+    font-weight: bold;
+    font-family: Quicksand;
+}
+
+
+#verMais{
+    color: #ED7839;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+
+#tituloResumo{
+    font-family: Roboto;
+    color: #4E4E4E;
+    font-size: 20px;
+    background-color:#FDF1EB;
+    border: 1px solid #ECECEC;
+    height:45px;
+    border-radius: 3px 3px 0px 0px;
+    text-align: justify;
+}
+
+
+.bordasDoTituloResumo{
+    border: 1px solid #ECECEC;
+}
