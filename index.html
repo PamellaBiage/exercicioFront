@@ -388,6 +388,197 @@
 					</div>
 
 
+                    
+						<div class="container bordas" style="margin-top:30px;">
+										
+							<div class="textCompartilhe">		
+										
+								<div class="col-12">
+												
+									<div class="row">
+										
+										<table class="caixaResumo">
+													
+											<tr>
+												
+												<td id="tituloDiscussoes">
+															
+													Discussões
+														
+														
+												</td>
+													
+											</tr>
+												
+												
+										</table>				
+		
+									</div>		
+									
+								</div>		
+								
+								<div class="col-12" id="divCriar">
+																	
+									<div class="DivBtnEnviar">
+								
+										<p class= "compartilheSuasIdeias">
+										
+											Compartilhe suas ideias ou dúvidas com os autores!
+										
+										</p>
+
+									</div>	
+							
+								
+									<div class="col-12 iconesCompartilhe">
+														
+										<img src="./imagens/icone1.png" >
+										
+										<img src="./imagens/icone2.png" >
+										
+										<img src="./imagens/icone3.png" >
+								
+									</div>
+
+														
+
+									<p id="textoCompartilheIcons">
+										
+										Sabia que o maior estímulo no desenvolvimento científico e cultural é a curiosidade?</br> 
+										Deixe seus questionamentos ou sugestões para o autor!
+									
+									</p>
+								
+
+									<div class="col-12">
+
+																		
+										<button type="button" onclick="exibirForm()" id="botao" ><img src="./imagens/icon - criar.png" >
+											
+											criar tópico
+										
+										</button>
+
+									</div>
+													
+								</div>
+							
+								
+								<div class="textEnviado" id="divForm">
+															
+									<span class="textoEscondidoExemplo">
+
+										<p id="enviar">
+											
+											Tem uma dúvida ou sugestão? Compartilhe seu feedback com os autores!
+											
+										</p>
+										
+									</span>
+													
+												
+									<label id="campoAssunto">
+
+										Assunto
+										
+									</label></br>
+										
+																	
+									<input id="caixaAssunto" type="text"
+																		
+									placeholder="           Defina um tópico sucinto para notificar os autores...">
+										
+																	
+									<label id="campoConteudo">
+											
+										Conteúdo
+										
+									</label></br>
+									
+									
+									<textarea id="caixaConteudo"></textarea>									
+								
+									<div class="container">
+											
+										<div class="row">
+								
+											<div class="col-12">
+											
+												<div class="imagemFormatacao">
+																						
+													<img id="imagemNegrito" src="./imagens/bt.css/Shape.png"> 
+													<img id="imagemItalico" src="./imagens/bt.css/Shape (1).png">
+
+													<button id="topicoEnviar" type="button" onclick="enviarForm()">
+
+														Enviar 
+	
+													</button>
+								
+												</div>
+
+											</div>	
+									
+										</div>		
+																	
+									</div>			
+									
+											
+								</div>
+														
+
+								<div class="checkTopicoEnviado" id="topicoEnviado" style="display:none;">
+								
+									<p>
+										<span class="textoLaranjaTopico"> 
+																					
+											Seu tópico foi enviado com sucesso! :D
+																				
+										</span></br></br>
+											
+																				
+										<span class="fonteMaior">
+											
+											Agradecemos por sua contribuição, uma notificação será enviada ao seu email assim que seu tópico for respondido!
+										
+										</span>
+									
+									</p>
+											
+									<a href="#" id="textoLinks">
+										
+										Descubra outros trabalhos!
+									
+									</a>
+									</br></br></br>
+											
+									
+									<button id="novoTopico" type="button" onclick="exibirForm()">
+										
+										criar novo tópico
+									
+									</button>
+
+										<div class="feedback" id="feedback">
+																				
+											<img id="imagemFeedback" src="./imagens/bt.css/logo.png"></br>
+																						
+											<p id="textoFeedback">
+																						
+												Aguardando feedback dos autores
+											
+											</p>
+																					
+											<a href="#" id="textoLinks">
+												
+												Editar tópico
+											
+									
+											</a>
+																
+										</div>
+	
+								</div>
 
                 </div>
 
@@ -395,5 +586,30 @@
 
     </body>        
 
+    <script>
+
+		function exibirForm(){
+			
+			var divForm = document.getElementById("divForm");
+			divForm.style.display ='inline';
+			var divCriar = document.getElementById('divCriar');
+			divCriar.style.display='none';
+			var topicoEnviado = document.getElementById('topicoEnviado');
+			topicoEnviado.style.display ='none';
+
+		}
+
+		function enviarForm(){
+			var divForm = document.getElementById("divForm");
+			divForm.style.display ='none';
+			var divCriar = document.getElementById('divCriar');
+			divCriar.style.display='none';
+			var topicoEnviado = document.getElementById('topicoEnviado');
+			topicoEnviado.style.display ='inline';
+
+		}
+
+	</script>
+    
 </html>
 

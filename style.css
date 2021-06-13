@@ -240,3 +240,201 @@
 .bordasDoTituloResumo{
     border: 1px solid #ECECEC;
 }
+
+#tituloDiscussoes{
+    font-family: Roboto;
+    color: #4E4E4E;
+    font-size: 20px;
+    background-color:#FDF1EB;
+    border: 1px solid #ECECEC;
+    height:45px;
+    border-radius: 3px 3px 0px 0px;
+    text-align: justify;
+
+}
+
+.bordas{
+    border: 1px solid #ECECEC;
+    box-sizing: border-box;
+    border-radius: 3px;
+
+}
+
+#campoAssunto, #campoConteudo{
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 16px;
+    color: #ED7839;
+    width: 100%;
+    text-align: justify;
+    margin-top: 15px;
+}
+
+#caixaAssunto{
+    background: #FFFFFF;
+    border: 1px solid #CCCCCC;
+    box-sizing: border-box;
+    border-radius: 3px;
+    width: 100%;
+    font-family: Quicksand;
+}
+
+#caixaConteudo{
+    width: 100%;
+    background: #FFFFFF;
+    border: 1px solid #CCCCCC;
+    box-sizing: border-box;
+    border-radius: 3px;
+    height: 100px;
+}
+.imagemFormatacao{
+    height: 31px;
+    background: #EAF1F2;
+    border: 1px solid #CCCCCC;
+    box-sizing: border-box;
+    border-radius: 0px 0px 4px 4px;
+    margin-left: -25px;
+    margin-right: -25px;
+    text-align: justify;
+    word-spacing: 20px;
+}
+.textoLaranja{
+    color: #ED7839;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.textoLaranjaTopico{
+    color: #ED7839;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+}
+#textoLinks{
+    color: #F48F44;
+    font-size: 14px;
+    width: 306px;
+    height: 20px;
+}
+
+.inputFixoPergunta {
+    display: none;
+}
+
+.inputFixoPergunta:checked ~ .textDinamico {
+    display: none;
+}
+
+#imagemFeedback{
+    margin-top: 25px;
+    margin-left: 100px;
+}
+
+
+.feedback{
+    background-color: #DDDDDD;
+    border: 1px solid #E7E7E7;
+    box-sizing: border-box;
+    border-radius: 4px;
+    width: 100%;
+    height: 148px;
+    margin-top: 15px;
+    opacity: .8;
+}
+
+#novoTopico{
+    background: linear-gradient(180deg, #FEB254 0%, #F0813D 100%);
+    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.12), 0px 2px 2px rgba(0, 0, 0, 0.24);
+    border-radius: 4px;
+    width: 235px;
+    height: 32px;
+    color: white;
+    font-family: Quicksand;
+}
+
+#textoFeedback{
+    font-size: 16px;
+    color: #707070;
+    font-weight: bold;
+
+}
+
+.textCompartilhe{
+    text-align: center;
+
+}
+
+.fonteMaior{
+    font-family: Quicksand;
+    font-size: 14px;
+    color: #4D4D4D;
+}
+
+
+.compartilheSuasIdeias{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+    color: #ED7839;
+    margin-top: 25px;
+}
+
+.iconesCompartilhe{
+    word-spacing: 50px;
+    margin-top: 40px;
+
+}
+
+#textoCompartilheIcons{
+    font-family: Quicksand;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    text-align: center;
+    color: #595959;
+    margin-top: 40px;
+    
+}
+
+
+#divForm{
+    display: none;
+}
+
+.checkTopicoEnviado{
+    display: none;
+}
+
+
+#botao{
+    background: linear-gradient(180deg, #FEB254 0%, #F0813D 100%);
+    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.12), 0px 2px 2px rgba(0, 0, 0, 0.24);
+    border-radius: 4px;
+    color: white;
+    Width: 133px;
+    Height: 32px;
+    font-family: Quicksand;
+}
+
+#topicoEnviar{
+    background: linear-gradient(180deg, #FEB154 0%, #F1833E 100%);
+    border-radius: 0px 0px 4px 0px;
+    color: white;
+    width: 205px;
+    height: 31px;
+    margin-left: 905px;
+}
+
+#enviar{
+    font-family: Quicksand;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #5C5C5C;
+    margin-top: 25px;
+}
